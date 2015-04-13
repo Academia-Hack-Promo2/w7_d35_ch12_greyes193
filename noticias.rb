@@ -44,7 +44,7 @@ class Mashable
     puts "Selecciona:\n1 para el Titulo\n2 para el Autor\n3 para la fecha\n4 para el Link\n5 para ver todos los datos de cada noticia"
     res = gets.chomp
     if res != "1" && res != "2" && res != "3" && res != "4" && res != "5"
-      puts "seleccionaste una opcion valida"
+      puts "seleccionaste una opcion invalida"
     end
     return res
   end
